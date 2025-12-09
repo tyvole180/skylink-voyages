@@ -25,7 +25,7 @@
     header {
       background: linear-gradient(135deg, #122044, #1c6dd0);
       color: #ffffff;
-      padding: 2.5rem 1.5rem 3.5rem;
+      padding: 3rem 1.5rem 3.8rem;
     }
     .container {
       max-width: 980px;
@@ -35,21 +35,21 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 2rem;
+      margin-bottom: 2.5rem;
     }
     .logo {
-      font-weight: 700;
-      letter-spacing: 0.07em;
+      font-weight: 800;
+      letter-spacing: 0.08em;
       text-transform: uppercase;
-      font-size: 0.9rem;
-      opacity: 0.9;
+      font-size: 1.6rem; /* made bigger */
+      opacity: 1;
     }
     .nav a {
       color: #ffffff;
       text-decoration: none;
-      font-size: 0.9rem;
-      margin-left: 1.25rem;
-      opacity: 0.85;
+      font-size: 1rem;
+      margin-left: 1.4rem;
+      opacity: 0.9;
     }
     .nav a:hover { opacity: 1; }
 
@@ -64,38 +64,38 @@
     }
     h1 {
       margin: 0 0 1rem;
-      font-size: clamp(2rem, 4vw, 2.7rem);
+      font-size: clamp(2.4rem, 4.5vw, 3.1rem); /* slightly larger */
     }
     .hero-subtitle {
-      font-size: 1rem;
+      font-size: 1.05rem;
       max-width: 34rem;
       opacity: 0.9;
     }
     .pill {
       display: inline-flex;
       align-items: center;
-      padding: 0.3rem 0.8rem;
+      padding: 0.35rem 0.9rem;
       border-radius: 999px;
       background: rgba(255,255,255,0.12);
-      font-size: 0.8rem;
+      font-size: 0.85rem;
       text-transform: uppercase;
-      letter-spacing: 0.12em;
-      margin-bottom: 0.75rem;
+      letter-spacing: 0.13em;
+      margin-bottom: 0.9rem;
     }
     .hero-actions {
-      margin-top: 1.5rem;
+      margin-top: 1.7rem;
       display: flex;
       flex-wrap: wrap;
-      gap: 0.75rem;
+      gap: 0.9rem;
     }
     .btn {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      padding: 0.7rem 1.3rem;
+      padding: 0.75rem 1.4rem;
       border-radius: 999px;
       border: 1px solid transparent;
-      font-size: 0.9rem;
+      font-size: 1rem;
       font-weight: 500;
       cursor: pointer;
       text-decoration: none;
@@ -118,103 +118,103 @@
       background: rgba(15,23,42,0.45);
     }
     .hero-badge {
-      margin-top: 1.25rem;
-      font-size: 0.8rem;
-      opacity: 0.9;
+      margin-top: 1.4rem;
+      font-size: 0.9rem;
+      opacity: 0.95;
     }
     .hero-card {
       background: rgba(15,23,42,0.5);
       border-radius: 1.25rem;
-      padding: 1.4rem 1.3rem;
+      padding: 1.5rem 1.4rem;
       border: 1px solid rgba(255,255,255,0.18);
-      font-size: 0.85rem;
+      font-size: 0.9rem;
     }
     .hero-card h2 {
-      font-size: 0.95rem;
-      margin: 0 0 0.5rem;
+      font-size: 1.05rem;
+      margin: 0 0 0.7rem;
       text-transform: uppercase;
       letter-spacing: 0.08em;
       opacity: 0.9;
     }
     .hero-grid ul {
-      padding-left: 1.1rem;
+      padding-left: 1.2rem;
       margin: 0.3rem 0 0;
     }
     .hero-grid li {
-      margin-bottom: 0.25rem;
+      margin-bottom: 0.35rem;
     }
 
     main {
-      padding: 2.5rem 1.5rem 3rem;
+      padding: 2.8rem 1.5rem 3.2rem;
     }
     section {
-      margin-bottom: 3rem;
+      margin-bottom: 3.2rem;
     }
     .card {
       background: var(--card);
       border-radius: 1.25rem;
       border: 1px solid var(--border);
-      padding: 1.8rem 1.7rem;
+      padding: 2rem 1.8rem;
       box-shadow: 0 14px 40px rgba(15, 23, 42, 0.04);
     }
     h3 {
       margin-top: 0;
-      margin-bottom: 0.8rem;
-      font-size: 1.3rem;
+      margin-bottom: 0.9rem;
+      font-size: 1.45rem;
     }
     .muted {
       color: var(--muted);
-      font-size: 0.9rem;
+      font-size: 1rem;
     }
     .grid-3 {
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 1.5rem;
-      margin-top: 1.4rem;
+      gap: 1.7rem;
+      margin-top: 1.6rem;
     }
     @media (max-width: 900px) {
       .grid-3 { grid-template-columns: 1fr; }
     }
     .badge {
       display: inline-block;
-      padding: 0.2rem 0.6rem;
+      padding: 0.25rem 0.65rem;
       border-radius: 999px;
       background: rgba(28,109,208,0.08);
       color: #1c6dd0;
-      font-size: 0.75rem;
+      font-size: 0.78rem;
       text-transform: uppercase;
       letter-spacing: 0.09em;
-      margin-bottom: 0.3rem;
+      margin-bottom: 0.35rem;
     }
     .service-title {
       font-weight: 600;
-      margin-bottom: 0.25rem;
+      margin-bottom: 0.35rem;
     }
     .service-text {
-      font-size: 0.9rem;
+      font-size: 0.95rem;
       color: var(--muted);
     }
     .two-col {
       display: grid;
       grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
-      gap: 1.7rem;
+      gap: 1.9rem;
     }
     @media (max-width: 800px) {
       .two-col { grid-template-columns: 1fr; }
     }
     label {
       display: block;
-      font-size: 0.85rem;
-      margin-bottom: 0.25rem;
+      font-size: 0.9rem;
+      margin-bottom: 0.35rem;
       font-weight: 500;
     }
     input, textarea {
       width: 100%;
-      padding: 0.6rem 0.7rem;
+      padding: 0.65rem 0.75rem;
       border-radius: 0.6rem;
       border: 1px solid var(--border);
       font-family: inherit;
-      font-size: 0.9rem;
+      font-size: 0.95rem;
       outline: none;
       transition: border-color 0.16s ease, box-shadow 0.16s ease;
     }
@@ -223,21 +223,21 @@
       box-shadow: 0 0 0 1px rgba(28,109,208,0.12);
     }
     textarea {
-      min-height: 110px;
+      min-height: 120px;
       resize: vertical;
     }
     .field {
-      margin-bottom: 0.9rem;
+      margin-bottom: 1rem;
     }
     .contact-note {
-      font-size: 0.8rem;
+      font-size: 0.85rem;
       color: var(--muted);
-      margin-top: 0.5rem;
+      margin-top: 0.6rem;
     }
     footer {
-      padding: 1.5rem;
+      padding: 1.7rem;
       border-top: 1px solid var(--border);
-      font-size: 0.8rem;
+      font-size: 0.85rem;
       color: var(--muted);
       text-align: center;
     }
@@ -267,8 +267,7 @@
           <div class="pill">Independent Travel Agency</div>
           <h1>Tailored trips, expert hotel bookings, and stress-free planning.</h1>
           <p class="hero-subtitle">
-            Skylink Voyages LLC designs practical, well-planned travel — with the right flights, the right hotels,
-            and the details handled for you.
+            Skylink Voyages LLC designs practical, well-planned travel — with curated options and clear guidance at every step.
           </p>
           <div class="hero-actions">
             <a href="#contact" class="btn btn-primary">Request a trip consult</a>
@@ -302,7 +301,7 @@
           <h3>Services</h3>
           <p class="muted">
             Whether you need a single hotel night or a multi-stop itinerary, Skylink Voyages narrows the choices,
-            compares options, and manages the bookings so your travel feels intentional, not random.
+            compares options, and manages bookings so your travel feels intentional and stress-free.
           </p>
           <div class="grid-3">
             <div>
@@ -310,126 +309,5 @@
               <div class="service-title">Hotel & Resort Bookings</div>
               <p class="service-text">
                 Research and booking for hotels and resorts that match your preferences for location, style, and budget.
-                You receive clear options with pros and cons to make decisions quickly.
-              </p>
-            </div>
-            <div>
-              <div class="badge">Trip Design</div>
-              <div class="service-title">Custom Itineraries</div>
-              <p class="service-text">
-                Full-trip support: routing, city selection, hotel pairings, and activity ideas so your time away
-                is structured but flexible.
-              </p>
-            </div>
-            <div>
-              <div class="badge">Groups</div>
-              <div class="service-title">Families & Small Groups</div>
-              <p class="service-text">
-                Basic coordination for friends, families, or small groups, including shared itineraries and clear
-                communication so everyone knows the plan.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+                Skylink Voyages provides curated
 
-      <section id="about">
-        <div class="two-col">
-          <div class="card">
-            <h3>About Skylink Voyages LLC</h3>
-            <p>
-              Skylink Voyages LLC is an independent travel agency based in the Charlottesville–Albemarle area of Virginia,
-              focused on practical, well-planned trips for travelers who care about both value and experience.
-            </p>
-            <p>
-              The agency’s role is to reduce the time you spend scrolling through options and second-guessing decisions.
-              Skylink Voyages compares routes, hotels, and timing, then manages the reservations and confirmations on your behalf.
-            </p>
-            <p class="muted">
-              Skylink Voyages works with individual travelers, couples, families, and small groups. If you are unsure where to start,
-              share your dates, budget range, and a rough idea of where you want to go, and you will receive suggested next steps.
-            </p>
-          </div>
-          <div class="card">
-            <h3>How the process works</h3>
-            <ol style="padding-left: 1.1rem; margin: 0; font-size: 0.9rem; color: var(--muted);">
-              <li><strong>Share your plans.</strong> Send your dates, destinations, and approximate budget.</li>
-              <li><strong>Receive curated options.</strong> Skylink Voyages narrows flight and hotel choices that fit.</li>
-              <li><strong>Fine-tune the itinerary.</strong> You choose between clear, side-by-side recommendations.</li>
-              <li><strong>Bookings & management.</strong> Reservations, confirmations, and basic changes are handled for you.</li>
-            </ol>
-          </div>
-        </div>
-      </section>
-
-      <section id="contact">
-        <div class="card">
-          <h3>Start a trip request</h3>
-          <p class="muted">
-            Share a brief outline of your trip idea, and Skylink Voyages will follow up by email with questions
-            or suggested next steps.
-          </p>
-          <div class="two-col">
-            <form action="mailto:info@skylinkvoyages.com" method="post" enctype="text/plain">
-              <div class="field">
-                <label for="name">Your name</label>
-                <input id="name" name="Name" type="text" required>
-              </div>
-              <div class="field">
-                <label for="email">Email</label>
-                <input id="email" name="Email" type="email" required>
-              </div>
-              <div class="field">
-                <label for="destinations">Destinations (if known)</label>
-                <input id="destinations" name="Destinations" type="text" placeholder="e.g., Italy + Croatia">
-              </div>
-              <div class="field">
-                <label for="dates">Approximate dates</label>
-                <input id="dates" name="Dates" type="text" placeholder="e.g., June 10–18, flexible by a few days">
-              </div>
-              <div class="field">
-                <label for="details">Tell us a bit about your trip</label>
-                <textarea id="details" name="Trip details" placeholder="Who is traveling, budget range, must-see places, etc."></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Email trip request</button>
-              <div class="contact-note">
-                This form uses your email program to send the request. You can also email directly:
-                <a href="mailto:info@skylinkvoyages.com">info@skylinkvoyages.com</a>.
-              </div>
-            </form>
-            <div>
-              <p><strong>Email:</strong><br><a href="mailto:info@skylinkvoyages.com">info@skylinkvoyages.com</a></p>
-              <p><strong>Location:</strong><br>Charlottesville–Albemarle, Virginia (serving clients virtually)</p>
-              <p><strong>Typical services:</strong></p>
-              <ul style="padding-left:1.1rem; font-size:0.9rem; color:var(--muted);">
-                <li>Hotel & resort bookings</li>
-                <li>Custom itineraries</li>
-                <li>Trip research & consulting</li>
-                <li>Families, couples & small groups</li>
-              </ul>
-              <p class="muted" style="margin-top:0.8rem;">
-                Travel services provided by Skylink Voyages LLC, an independent travel agency.
-                <!-- Once you have your TIDS number, you can add a line here:
-                Accredited travel seller – TIDS: XXXXXXXX
-                -->
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-    </div>
-  </main>
-
-  <footer>
-    <div class="container">
-      &copy; <span id="year"></span> Skylink Voyages LLC. All rights reserved.
-      &nbsp;•&nbsp;
-      <a href="#top">Back to top</a>
-    </div>
-    <script>
-      document.getElementById('year').textContent = new Date().getFullYear();
-    </script>
-  </footer>
-</body>
-</html>
