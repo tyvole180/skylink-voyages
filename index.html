@@ -309,5 +309,121 @@
               <div class="service-title">Hotel & Resort Bookings</div>
               <p class="service-text">
                 Research and booking for hotels and resorts that match your preferences for location, style, and budget.
-                Skylink Voyages provides curated
+                Skylink Voyages provides curated comparisons to help you choose quickly.
+              </p>
+            </div>
+            <div>
+              <div class="badge">Trip Design</div>
+              <div class="service-title">Custom Itineraries</div>
+              <p class="service-text">
+                Full-trip support: routing, city selection, hotel pairings, activities, and timing — structured but flexible.
+              </p>
+            </div>
+            <div>
+              <div class="badge">Groups</div>
+              <div class="service-title">Families & Small Groups</div>
+              <p class="service-text">
+                Coordination help for friends, families, or small groups including shared itineraries and clear planning.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <section id="about">
+        <div class="two-col">
+          <div class="card">
+            <h3>About Skylink Voyages LLC</h3>
+            <p>
+              Skylink Voyages LLC is an independent travel agency based in the Charlottesville–Albemarle region of Virginia,
+              focused on practical, well-designed trips for travelers who care about comfort, value, and memorable experiences.
+            </p>
+            <p>
+              The agency’s role is to reduce planning time, compare meaningful options, and handle arrangements so you can
+              focus on the trip itself rather than logistics.
+            </p>
+            <p class="muted">
+              Skylink Voyages serves individual travelers, couples, families, and small groups. Share your dates and rough plan,
+              and the agency will follow up with next steps.
+            </p>
+          </div>
+          <div class="card">
+            <h3>How the process works</h3>
+            <ol style="padding-left: 1.1rem; margin: 0; font-size: 0.95rem; color: var(--muted);">
+              <li><strong>Share your plans.</strong> Provide your dates, destinations, and approximate budget.</li>
+              <li><strong>Receive curated options.</strong> Skylink Voyages researches and narrows flights and hotels.</li>
+              <li><strong>Refine the itinerary.</strong> You select from clearly presented recommendations.</li>
+              <li><strong>Booking & management.</strong> Reservations, confirmations, and basic changes are handled for you.</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="card">
+          <h3>Start a trip request</h3>
+          <p class="muted">
+            Share a quick outline of your trip idea, and Skylink Voyages will contact you with next steps.
+          </p>
+          <div class="two-col">
+            <form action="mailto:info@skylinkvoyages.space" method="post" enctype="text/plain">
+              <div class="field">
+                <label for="name">Your name</label>
+                <input id="name" name="Name" type="text" required>
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input id="email" name="Email" type="email" required>
+              </div>
+              <div class="field">
+                <label for="destinations">Destinations (if known)</label>
+                <input id="destinations" name="Destinations" type="text" placeholder="e.g., Italy + Croatia">
+              </div>
+              <div class="field">
+                <label for="dates">Approximate dates</label>
+                <input id="dates" name="Dates" type="text" placeholder="e.g., June 10–18, flexible by a few days">
+              </div>
+              <div class="field">
+                <label for="details">Tell us a bit about your trip</label>
+                <textarea id="details" name="Trip details" placeholder="Who is traveling, budget range, must-see places, etc."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Email trip request</button>
+              <div class="contact-note">
+                This form uses your email program to send the request. You may also email directly:
+                <a href="mailto:info@skylinkvoyages.space">info@skylinkvoyages.space</a>.
+              </div>
+            </form>
+            <div>
+              <p><strong>Email:</strong><br>
+                <a href="mailto:info@skylinkvoyages.space">info@skylinkvoyages.space</a></p>
+              <p><strong>Location:</strong><br>Charlottesville–Albemarle, Virginia (serving clients virtually)</p>
+              <p><strong>Typical services:</strong></p>
+              <ul style="padding-left:1.1rem; font-size:0.95rem; color:var(--muted);">
+                <li>Hotel & resort bookings</li>
+                <li>Custom itineraries</li>
+                <li>Trip research & consulting</li>
+                <li>Families, couples & small groups</li>
+              </ul>
+              <p class="muted" style="margin-top:0.9rem;">
+                Travel services provided by Skylink Voyages LLC, an independent travel agency.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      &copy; <span id="year"></span> Skylink Voyages LLC. All rights reserved.
+      &nbsp;•&nbsp;
+      <a href="#top">Back to top</a>
+    </div>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>
